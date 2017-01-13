@@ -17,6 +17,7 @@
         s0.parentNode.insertBefore(s1,s0);
     })();
     Tawk_API.onLoad = function(){
+        {block name="widgets_tawk_index_onload"}
         Tawk_API.setAttributes({
             'shopName': '{$shopName}'
             {if $userData}
@@ -24,5 +25,6 @@
             'customernumber': '{$userData.customernumber}'
             {/if}
         });
+        {/block}
     };
 </script>
